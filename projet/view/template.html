@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./public/styles/style.css">
+      	<script src = './public/script/script.js' type = 'text/javascript'></script>      	
+      	<link rel="icon" type="image/png" href="./public/img/favicon.png" />
+		<!-- BEGIN zone_onglet -->
+		<title>L&L{titreOnglet}</title>
+		<!-- END zone_onglet -->
+	</head>
+
+	<body>
+		<!-- BEGIN zone_menu -->
+		<header id="header">
+			<a href="./index.php" id="logo"><img src="./public/img/logo.png"></a>
+        	<div id="connexion">
+				{bouton}
+			</div>
+			{menu}
+			<!-- END zone_menu -->
+		</header><br />
+		
+		<div id="page">
+			<!-- BEGIN zone_contenu -->
+			<div id="overlay">
+				<div id="textOverlay">
+				{overlay}
+				
+			</div>
+			</div>
+			<div id="contenu">
+				{titre}
+				{contenu}
+			</div>
+			<!-- END zone_contenu -->
+		</div>
+
+		<footer id="footer">
+			<div id="upFooter">
+					<a href="./index.php?page=infosLivraison">Informations de livraison</a>
+			</div>
+			<hr>
+			<div id="downFooter">
+				<div class="titreFooter">Nous contacter</div><br />
+				<div class="left">
+					<b>Par email : </b><br/>
+					<a href="mailto:ServiceClient@contactLetL.fr">ServiceClient@contact.fr</a>
+				</div>
+				<div class="right">
+					<b>Par courrier : </b><br />
+					Siège L&L - impasse le Ménil<br />
+					54740 Leménil-Mitry
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
